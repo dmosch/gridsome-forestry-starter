@@ -21,7 +21,7 @@
             </div>
 
             <div class="year-container">
-              <span class="label">Year</span>
+              <span class="label">YearS</span>
               <div v-html="$page.post.date"/>
             </div>
           </div>
