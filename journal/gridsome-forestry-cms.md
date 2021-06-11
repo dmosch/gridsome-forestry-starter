@@ -18,6 +18,8 @@ You can import this starter to Forestry and start editing and creating posts or 
 
 Forestry also comes with instant previews, for you to preview your content before publishing.
 
+<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="640" height="480"></iframe>
+
 When you save content in **Forestry**, it's committed back to your Git repository. If you link your repository to a service like **Netlify** or **Vercel**, on every push, your site will be deployed over to a CDN network.
 
 Enjoy the best development and user experience! 🚀
