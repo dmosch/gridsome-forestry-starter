@@ -13,6 +13,9 @@ fields:
   description: Short snippet that will show outside of the actual post
   config:
     required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: datetime
   name: date
   label: Date
