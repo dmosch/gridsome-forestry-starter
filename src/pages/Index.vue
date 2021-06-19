@@ -8,9 +8,7 @@
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
 	<div class="container">
 	    <div class="legend">
-	    	<div class="icon">
-			<img src="../../uploads/maps-black.svg" class="icon" />
-		</div>
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
 	    	<div class="text">
 			Left Side Menu
 		</div>
