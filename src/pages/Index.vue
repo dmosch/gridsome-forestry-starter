@@ -7,12 +7,14 @@
 	<img src="../../uploads/maps-black.svg" class="center" />
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
 	<div class="container">
-	    <div class="left">
-	    	<img src="../../uploads/maps-black.svg" />
-	    	Left Side Menu
+	    <div class="legend">
+	    	<div class="icon">
+			<img src="../../uploads/maps-black.svg" class="icon" />
+		</div>
+	    	<div class="text">
+			Left Side Menu
+		</div>
 	    </div>
-	    <div class="left">Random Content</div>
-	    <div class="left">Right Side Menu</div>
 	</div>
     </div>
     <LatestJournals :journals="$page.journals.edges" />
@@ -75,9 +77,10 @@ export default {
 }
 
 .container {height: 100%; width:100%; font-size: 0;}
-.left, .left, .left, .left {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-.left {width: 25%; background: blue;}
-.middle {width: 50%; background: green;}
-.right {width: 25%; background: yellow;}
+.legend, .legend, .legend, .legend, .legend, .legend, .legend {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 0;}
+.legend {width: 25%;}
+.icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+.icon {width: 10%;}
+.text {width: 90%;}
 
 </style>
