@@ -100,15 +100,15 @@ export default {
 .container {height: 100%; width:100%; margin-top: 20px; margin-bottom: 5px; font-size: 0;}
 .container_line1, .container_line2 {display: block; zoom: 1; text-align: center; font-size: 0;}
 
-.container_line1 {height: 50%; width:100%; margin-top: 20px; margin-bottom: 5px; font-size: 0;}
-.legend1, .legend1, .legend1, .legend1 {display: inline-block; *display: inline; zoom: 1; vertical-align: middle;  text-align: center; font-size: 0;}
+.container_line1 {height: 50%; width:100%; margin-top: 5px; margin-bottom: 5px; font-size: 0;}
+.legend1, .legend1, .legend1, .legend1 {height: 50%; display: inline-block; *display: inline; zoom: 1; vertical-align: middle;  text-align: center; font-size: 0;}
 .legend1 {width: 25%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
 .text {margin-left: 10px; margin-right: 15px;}
 
-.container_line2 {height: 50%; width:100%; margin-top: 5px; margin-bottom: 20px; font-size: 0;}
-.legend2, .legend2, .legend2 {display: inline-block; *display: inline; zoom: 1; vertical-align: middle;  text-align: center; font-size: 0;}
+.container_line2 {height: 50%; width:100%; margin-top: 5px; margin-bottom: 5px; font-size: 0;}
+.legend2, .legend2, .legend2 {height: 50%; display: inline-block; *display: inline; zoom: 1; vertical-align: middle;  text-align: center; font-size: 0;}
 .legend2 {width: 33%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
