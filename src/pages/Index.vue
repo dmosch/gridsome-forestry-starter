@@ -7,7 +7,10 @@
 	<img src="../../uploads/maps-black.svg" class="center" />
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
 	<div class="container">
-	    <div class="left">Left Side Menu</div>
+	    <div class="left">
+	    	<img src="../../uploads/maps-black.svg" />
+	    	Left Side Menu
+	    </div>
 	    <div class="middle">Random Content</div>
 	    <div class="right">Right Side Menu</div>
 	</div>
