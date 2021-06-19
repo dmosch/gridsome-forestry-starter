@@ -41,15 +41,6 @@ import Hero from "@/components/Hero"
 import ProjectsGrid from "@/components/ProjectsGrid"
 import LatestJournals from "@/components/LatestJournals"
 
-<style scoped>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
-
 export default {
   components: {
     Hero,
@@ -58,3 +49,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
