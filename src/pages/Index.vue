@@ -97,7 +97,7 @@ export default {
 
 .container {height: 100%; width:100%; margin-top: 20px; margin-bottom: 20px; font-size: 0;}
 .legend, .legend, .legend, .legend, .legend, .legend, .legend_long {display: inline-block; *display: inline; zoom: 1; vertical-align: middle;  text-align: center; font-size: 0;}
-.legend {width: 30%;}
+.legend {width: 25%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
 .text {margin-left: 10px; margin-right: 15px;}
