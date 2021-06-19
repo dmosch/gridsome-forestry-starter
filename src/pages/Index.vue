@@ -1,7 +1,11 @@
 <template>
   <Layout>
     <div class="container">
-    <img src="/uploads/thebunkermap_logo.png" />
+    <img 
+                        src="../../static/logo.svg"
+                        :alt="settings.site_name" 
+			class="logo"
+      />
       <Hero />
       <iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720"></iframe>
       <!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
