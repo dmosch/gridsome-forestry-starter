@@ -4,7 +4,6 @@
     	<img src="../../static/logo.svg" class="center" />
       	<Hero />
       	<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720" class="map"></iframe>
-	<img src="../../uploads/maps-black.svg" class="center" />
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
 	<div class="container">
 	    <div class="legend">
@@ -14,6 +13,26 @@
 	    <div class="legend">
 	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
 	    	<div class="text"> Museos </div>
+	    </div>
+	    <div class="legend">
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="text"> U-Boot </div>
+	    </div>
+	    <div class="legend">
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="text"> Blockhaus </div>
+	    </div>
+	    <div class="legend">
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="text"> Cementerios </div>
+	    </div>
+	    <div class="legend">
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="text"> Memoriales </div>
+	    </div>
+	    <div class="legend">
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="text"> Campos de concentración </div>
 	    </div>
 	</div>
     </div>
@@ -76,9 +95,9 @@ export default {
   width: 100%;
 }
 
-.container {height: 100%; width:100%; font-size: 0;}
+.container {height: 100%; width:100%; margin-top: 20px; margin-bottom: 20px; font-size: 0;}
 .legend, .legend, .legend, .legend, .legend, .legend, .legend {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 0;}
-.legend {width: 25%;}
+.legend {width: 14%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 12px;}
 .icon {width: 10%;}
 .text {margin-left: 10px; margin-right: 20px;}
