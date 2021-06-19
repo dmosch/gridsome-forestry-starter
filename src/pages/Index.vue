@@ -30,7 +30,7 @@
 	    	<div class="icon"> <img src="../../uploads/maps-memorial.svg" /> </div>
 	    	<div class="text"> Memoriales </div>
 	    </div>
-	    <div class="legend">
+	    <div class="legend_long">
 	    	<div class="icon"> <img src="../../uploads/maps-green.svg" /> </div>
 	    	<div class="text"> Campos de concentración </div>
 	    </div>
@@ -96,8 +96,9 @@ export default {
 }
 
 .container {height: 100%; width:100%; margin-top: 20px; margin-bottom: 20px; font-size: 0;}
-.legend, .legend, .legend, .legend, .legend, .legend, .legend {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 0;}
+.legend, .legend, .legend, .legend, .legend, .legend, .legend_long {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 0;}
 .legend {width: 25%;}
+.legend_long {width: 50%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
 .text {margin-left: 10px; margin-right: 15px;}
