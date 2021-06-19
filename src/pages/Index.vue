@@ -7,19 +7,19 @@
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
 	<div class="container">
 	    <div class="legend">
-	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="icon"> <img src="../../uploads/maps-blue.svg" /> </div>
 	    	<div class="text"> Búnquers </div>
 	    </div>
 	    <div class="legend">
-	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="icon"> <img src="../../uploads/maps-yellow.svg" /> </div>
 	    	<div class="text"> Museos </div>
 	    </div>
 	    <div class="legend">
-	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="icon"> <img src="../../uploads/maps-uboot.svg" /> </div>
 	    	<div class="text"> U-Boot </div>
 	    </div>
 	    <div class="legend">
-	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="icon"> <img src="../../uploads/maps-blockhaus.svg" /> </div>
 	    	<div class="text"> Blockhaus </div>
 	    </div>
 	    <div class="legend">
@@ -27,11 +27,11 @@
 	    	<div class="text"> Cementerios </div>
 	    </div>
 	    <div class="legend">
-	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="icon"> <img src="../../uploads/maps-memorial.svg" /> </div>
 	    	<div class="text"> Memoriales </div>
 	    </div>
 	    <div class="legend">
-	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="icon"> <img src="../../uploads/maps-green.svg" /> </div>
 	    	<div class="text"> Campos de concentración </div>
 	    </div>
 	</div>
@@ -97,7 +97,7 @@ export default {
 
 .container {height: 100%; width:100%; margin-top: 20px; margin-bottom: 20px; font-size: 0;}
 .legend, .legend, .legend, .legend, .legend, .legend, .legend {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 0;}
-.legend {width: 20%;}
+.legend {width: 25%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
 .text {margin-left: 10px; margin-right: 15px;}
