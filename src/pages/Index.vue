@@ -81,6 +81,6 @@ export default {
 .legend {width: 25%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 12px;}
 .icon {width: 10%;}
-.text {width: 90%; margin-left: 10px; margin-right: 20px;}
+.text {margin-left: 10px; margin-right: 20px;}
 
 </style>
