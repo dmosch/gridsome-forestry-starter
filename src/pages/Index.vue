@@ -11,8 +11,8 @@
 	    	<img src="../../uploads/maps-black.svg" />
 	    	Left Side Menu
 	    </div>
-	    <div class="middle">Random Content</div>
-	    <div class="right">Right Side Menu</div>
+	    <div class="left">Random Content</div>
+	    <div class="left">Right Side Menu</div>
 	</div>
     </div>
     <LatestJournals :journals="$page.journals.edges" />
