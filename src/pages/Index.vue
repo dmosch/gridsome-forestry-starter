@@ -3,7 +3,8 @@
     <div class="container">
     	<img src="../../static/logo.svg" class="center" />
       	<Hero />
-      	<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720" class="center"></iframe>
+      	<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720" class="map"></iframe>
+	<img src="../../uploads/maps-black.svg" class="center" />
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
     </div>
     <LatestJournals :journals="$page.journals.edges" />
@@ -56,5 +57,12 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 </style>
