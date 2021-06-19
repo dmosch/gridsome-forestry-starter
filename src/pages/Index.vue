@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
     	<img src="../../static/logo.svg" class="center" />
-      	<Hero />
+      	<!-- <Hero /> -->
       	<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720" class="map"></iframe>
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
 	<div class="container">
@@ -97,9 +97,9 @@ export default {
 
 .container {height: 100%; width:100%; margin-top: 20px; margin-bottom: 20px; font-size: 0;}
 .legend, .legend, .legend, .legend, .legend, .legend, .legend {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 0;}
-.legend {width: 14%;}
-.icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 12px;}
+.legend {width: 20%;}
+.icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
-.text {margin-left: 10px; margin-right: 20px;}
+.text {margin-left: 10px; margin-right: 15px;}
 
 </style>
