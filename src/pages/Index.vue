@@ -9,9 +9,11 @@
 	<div class="container">
 	    <div class="legend">
 	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
-	    	<div class="text">
-			Left Side Menu
-		</div>
+	    	<div class="text"> Búnquers </div>
+	    </div>
+	    <div class="legend">
+	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
+	    	<div class="text"> Museos </div>
 	    </div>
 	</div>
     </div>
@@ -77,8 +79,8 @@ export default {
 .container {height: 100%; width:100%; font-size: 0;}
 .legend, .legend, .legend, .legend, .legend, .legend, .legend {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 0;}
 .legend {width: 25%;}
-.icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+.icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 12px;}
 .icon {width: 10%;}
-.text {width: 90%;}
+.text {width: 90%; margin-left: 10px; margin-right: 20px;}
 
 </style>
