@@ -30,7 +30,7 @@
 	    	<div class="icon"> <img src="../../uploads/maps-memorial.svg" /> </div>
 	    	<div class="text"> Memoriales </div>
 	    </div>
-	    <div class="legend_long">
+	    <div class="legend">
 	    	<div class="icon"> <img src="../../uploads/maps-green.svg" /> </div>
 	    	<div class="text"> Campos de concentración </div>
 	    </div>
