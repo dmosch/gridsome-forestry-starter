@@ -5,7 +5,7 @@
       	<!-- <Hero /> -->
       	<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720" class="map"></iframe>
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
-	<div class="container">
+	<div class="container_line1">
 	    <div class="legend">
 	    	<div class="icon"> <img src="../../uploads/maps-blue.svg" /> </div>
 	    	<div class="text"> Búnquers </div>
@@ -22,6 +22,8 @@
 	    	<div class="icon"> <img src="../../uploads/maps-blockhaus.svg" /> </div>
 	    	<div class="text"> Blockhaus </div>
 	    </div>
+	</div>
+	<div class="container_line2">
 	    <div class="legend">
 	    	<div class="icon"> <img src="../../uploads/maps-black.svg" /> </div>
 	    	<div class="text"> Cementerios </div>
