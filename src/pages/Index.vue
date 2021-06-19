@@ -6,6 +6,11 @@
       	<iframe src="https://www.google.com/maps/d/embed?mid=1QYGsiVQbqc1EShkHCZKout43QDP10q4F" width="980" height="720" class="map"></iframe>
 	<img src="../../uploads/maps-black.svg" class="center" />
       	<!-- <ProjectsGrid :projects="$page.projects.edges" /> -->
+	<div class="container">
+	    <div class="left">Left Side Menu</div>
+	    <div class="middle">Random Content</div>
+	    <div class="right">Right Side Menu</div>
+	</div>
     </div>
     <LatestJournals :journals="$page.journals.edges" />
   </Layout>
@@ -63,6 +68,13 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 }
+
+.container {height: 100%; width:100%; font-size: 0;}
+.left, .middle, .right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+.left {width: 25%; background: blue;}
+.middle {width: 50%; background: green;}
+.right {width: 25%; background: yellow;}
+
 </style>
