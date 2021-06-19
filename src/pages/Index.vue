@@ -109,7 +109,7 @@ export default {
 
 .container_line2 {height: 50%; width:100%; margin-top: 5px; margin-bottom: 5px; font-size: 0;}
 .legend2, .legend2, .legend2 {height: 50%; display: inline-block; *display: inline; zoom: 1; vertical-align: middle;  text-align: center; font-size: 0;}
-.legend2 {width: 33%;}
+.legend2 {width: 25%;}
 .icon, .text {display: inline-block; *display: inline; zoom: 1; vertical-align: middle; font-size: 14px;}
 .icon {width: 10%;}
 .text {margin-left: 10px; margin-right: 15px;}
