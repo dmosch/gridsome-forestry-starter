@@ -1,5 +1,6 @@
 <template>
     <footer class="footer">
+        <div class="container">
             <div style="display:flex;flex-wrap:wrap;margin-left: auto;margin-right: auto;width: 50%"><a href="https://www.niftybuttons.com" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#11cbe9;border-radius:50%;background-color:#0d2744;"><svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
                     <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
                 </svg></a><a href="https://www.niftybuttons.com" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#11cbe9;border-radius:50%;background-color:#0d2744;"><svg class="niftybutton-twitter" style="display:block;fill:currentColor" data-tag="twi" data-name="Twitter" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
@@ -10,6 +11,7 @@
                     <circle cx="351.5" cy="160.5" r="21.5"></circle>
                 </svg></a>
             </div>
+        </div>
         <div class="container">
             <span v-html="settings.footer" />
         </div>
