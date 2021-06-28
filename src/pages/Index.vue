@@ -38,7 +38,7 @@
 	    </div>
 	</div>
     </div>
-    <LatestJournals :journals="$page.journals.edges" />
+    <!-- <LatestJournals :journals="$page.journals.edges" /> -->
   </Layout>
 </template>
 
