@@ -39,6 +39,10 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: whitesmoke;
 }
 .header > .container {
     display: flex;
