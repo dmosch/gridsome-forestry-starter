@@ -42,7 +42,8 @@ export default {
     height: auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: whitesmoke;
+    background-color: white;
+    border-bottom-style: groove;
 }
 .header > .container {
     display: flex;
