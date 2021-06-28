@@ -5,7 +5,7 @@ module.exports = {
   siteName: "theBunkerMap",
   siteUrl: `https://gridsomebunkermap.netlify.app`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "theBunkerMap",
   siteDescription: "El lugar dónde encontrar todos los búnquers de la Segunda Guerra Mundial",
   plugins: [
     {
