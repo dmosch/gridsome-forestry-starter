@@ -40,8 +40,8 @@ export default {
     left: 0;
     width: 100%;
     height: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: white;
     border-bottom-style: groove;
 }
